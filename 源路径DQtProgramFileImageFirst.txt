@@ -1,0 +1,66 @@
+源路径:D:/QtProgram/File/ImageFirst
+目的路径: D:/QtProject/Album/build/Debug/forth
+
+遍历  D:/QtProgram/File/ImageFirst
+1.png setPrevious(nullptr)
+previous=1.png
+1.png setNextItem(2.png)
+2.png setPrevious(1.png)
+previous =2.png
+2.png setNextItem(3.png)
+3.png setPreviousItem(2.png)
+previous=3.png
+3.png setNextItem(4.png)
+4.png setPreviousItem(3.png)
+
+图片遍历完,开始遍历其他文件夹
+D:/QtProgram/File/ImageFirst/icon
+构造文件夹D:/QtProject/Album/build/Debug/forth/icon
+
+开始遍历D:/QtProgram/File/ImageFirst/icon
+源路径D:/QtProgram/File/ImageFirst/icon
+目的路径 D:/QtProject/Album/build/Debug/forth/icon
+
+previous= 4.png
+4.png setNextItem(1.png)
+1.png setPreviousItem(4.png)
+previousItem=1.png
+
+1.png setNextItem(2.png)
+2.png setPreviousItem(1.png)
+previousItem=2.png
+
+2.png setNextItem(3.png)
+3.png setPreviousItem(2.png)
+previousItem=3.png
+
+2.png setNextItem(3.png)
+3.png setPreviousItem(2.png)
+previousItem=3.png
+
+3.png setNextItem(4.png)
+4.png setPreviousItem(3.png)
+previousItem=4.png
+
+4.png setNextItem(turtlr.webp)
+turtle.webp setPreviousItem(4.png)
+previousItem=turtle.webp
+
+
+
+//创建项目
+打开文件夹
+D:/QtProgram/File/ImageFirst
+previousItem=1.png
+
+1.png setNextItem(2.png)
+2.png setPreviousItem(1.png)
+previousItem=2.png
+
+2.png setNextItem(3.png)
+3.png setPreviousItem(2.png)
+previousItem=3.png
+
+3.png setNextItem(4.png)
+4.png setPreviousItem(3.png)
+previousItem=4.png
